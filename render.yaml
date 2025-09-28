@@ -9,8 +9,6 @@ services:
         value: 0.0.0.0
       - key: N8N_PORT
         value: 5678
-      - key: WEBHOOK_URL
-        value: https://<your-render-subdomain>.onrender.com/
       - key: N8N_ENCRYPTION_KEY
         value: some-long-random-string
       - key: GENERIC_TIMEZONE
